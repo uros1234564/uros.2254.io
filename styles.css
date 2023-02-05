@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(175, 172, 172);
+    }
+  h1 {
+    color: blue;
+   /* font-size: 10vh;*/
+ /* Apsolutne vrednosti
+ font-size: 1px; */
+ /* Relativna vrednost */
+ /* em 12px  1em=12px  */
+ /* rem */
+ /* vh(viewport height), vw (viewport widht) */
+  }
+ 
+  
+  label {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  select {
+    color: purple;
+    background-color: orange;
+
+  }
+  img {
+    border: 3px solid purple;
+   /* border-style: solid;
+    border-width: 5px;
+    border-color: aqua;*/
+    border-top :3px orange dotted;
+    /* poslednji kod se uvek primenjuje  */
+    
+  }

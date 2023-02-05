@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>Trka F1</title>
+     <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Trka F1</h1><br>
+        <img src="formula.jpg" alt="slika formule"><br>
+        <b>	<p>Izaberi tim:</p></b>
+        <form>
+            <input type="radio"name="team"value="Ferrari"><b>Ferrari</b>  <br>
+            <input type="radio"name="team"value="Mercedes-Benz"><b>Mercedes-Benz</b> <br>
+            <input type="radio"name="team"value="Red Bull"><b>Red Bull</b> <br><br>
+        
+            <label for="name"><b>Unesite vase ime: </b></label>
+            <input type="text"id="name"placeholder="Unesite vase ime"name="name"><br>
+            <label for="Last name"><b>Unesite vase prezime:</b></label>
+            <input type="text"id="Last name"placeholder="Unesite vase prezime"name="Last name"><br>
+            <label for="Email"><b>Unesite vas email</b></label>
+            <input type="text"id="Email"placeholder="Unesite vas email"name="Email"><br>
+            <p><b>Koliko imate godina?:</b></p>
+            <input type="radio"name="age"value="18-24"><b>18-24</b><br>
+            <input type="radio"name="age"value="25-34"><b>25-34</b><br>
+            <input type="radio"name="age"value="35-50"><b>35-50</b><br>
+            <label for="bio">Tvoja adresa</label><br>
+            <textarea name="bio" id="bio" cols="20" rows="10" placeholder="UNESI TVOJU ADRESU"></textarea><br><br>
+            <label for="question">Izaberi gume</label>
+            <select name="question"id="question">
+                <option value="s">Soft</option>
+                <option value="m">Medium</option>
+                <option value="h">Hard</option>
+            </select><br><br>
+            <input type="submit"value="Posalji prijavu">Posalji prijavu 
+
+        </form>
+    </body>
+</html>
